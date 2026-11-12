@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=JetBrains+Mono:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"outline":"#8b919a","tertiary-fixed-dim":"#ecc228","secondary-fixed":"#8afd5d","on-surface-variant":"#c1c7d0","primary-fixed-dim":"#98cbff","on-error":"#690005","on-secondary":"#0e3900","background":"#0b1326","error-container":"#93000a","on-primary":"#003354","primary-container":"#3776ab","on-secondary-fixed":"#052100","on-tertiary":"#3c2f00","secondary-fixed-dim":"#6fdf43","on-tertiary-fixed-variant":"#564500","surface-bright":"#31394d","on-primary-container":"#f5f8ff","inverse-surface":"#dae2fd","primary-fixed":"#cfe5ff","on-secondary-fixed-variant":"#185200","surface-container-low":"#131b2e","secondary":"#6fdf43","surface-tint":"#98cbff","surface-dim":"#0b1326","on-error-container":"#ffdad6","surface":"#0b1326","on-background":"#dae2fd","on-tertiary-container":"#4e3e00","surface-variant":"#2d3449","on-tertiary-fixed":"#231b00","on-primary-fixed-variant":"#004a77","tertiary":"#ecc328","tertiary-fixed":"#ffe082","tertiary-container":"#cea700","on-surface":"#dae2fd","surface-container":"#171f33","on-primary-fixed":"#001d33","surface-container-lowest":"#060e20","on-secondary-container":"#0c3400","secondary-container":"#39a900","inverse-primary":"#1d6296","surface-container-high":"#222a3d","primary":"#98cbff","surface-container-highest":"#2d3449","outline-variant":"#41474f","inverse-on-surface":"#283044","error":"#ffb4ab"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"margin":"2rem","margin-mobile":"1rem","gutter-mobile":"1rem","space-lg":"1.5rem","space-xs":"0.25rem","space-md":"1rem","gutter":"1.5rem","space-sm":"0.5rem","space-xl":"2.5rem"},fontFamily:{"label-sm":["JetBrains Mono"],"headline-lg-mobile":["Inter"],"headline-sm":["Inter"],"headline-xl-mobile":["Inter"],"code-block":["JetBrains Mono"],"headline-xl":["Inter"],"headline-lg":["Inter"],"headline-md":["Inter"],"label-md":["JetBrains Mono"],"body-md":["Inter"],"body-lg":["Inter"],"body-sm":["Inter"]},fontSize:{"label-sm":["12px",{"lineHeight":"16px","fontWeight":"500"}],"headline-lg-mobile":["26px",{"lineHeight":"34px","fontWeight":"700"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}],"headline-xl-mobile":["32px",{"lineHeight":"40px","fontWeight":"800"}],"code-block":["13px",{"lineHeight":"20px","fontWeight":"400"}],"headline-xl":["48px",{"lineHeight":"56px","fontWeight":"800"}],"headline-lg":["36px",{"lineHeight":"44px","fontWeight":"700"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"600"}],"label-md":["14px",{"lineHeight":"20px","fontWeight":"500"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface min-h-screen flex flex-col selection:bg-primary selection:text-on-primary"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 w-full max-w-7xl mx-auto px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><img alt="logoSena.png" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrCnEQ_Yuv4hPY2iAJPekLaj0dy9J3__f3HLTfWtx2WmZdeacRw7-wEZtErh0im7p9pvWAWUUvBmsXknGq-T6d-ecJgz663kHWSjS58KVRMknk-2c1kM3tSL8KlybsZzWcAqC5rWhQlsno8lOEZbdO2NF8PgWYKp2QGMqcCO-YVjavoM6s20iAID4eMkQDzDwE0sp_0XS2IgSUDiNtGvQqmUuKwqCf-FpJ032ZV2QmvOYBVcBBkB3pCE2cM"/><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight font-bold hidden sm:inline-block">Python Conf</span><span class="font-label-sm text-label-sm bg-primary-container text-on-primary-container px-2 py-0.5 rounded-full font-semibold uppercase tracking-wider">Pereira 2026</span></div></div><nav class="hidden xl:flex items-center gap-space-sm" data-active-classes="bg-surface-container-high text-primary font-semibold rounded-lg"><a aria-current="page" class="px-3 py-2 transition-colors bg-surface-container-high text-primary font-semibold rounded-lg" data-path="inicio" href="#">Inicio</a><a class="px-3 py-2 text-on-surface-variant hover:text-on-surface transition-colors font-body-sm text-body-sm" data-path="sobre-el-evento" href="#">Sobre el evento</a><a class="px-3 py-2 text-on-surface-variant hover:text-on-surface transition-colors font-body-sm text-body-sm" data-path="tematicas" href="#">Temáticas</a><a class="px-3 py-2 text-on-surface-variant hover:text-on-surface transition-colors font-body-sm text-body-sm" data-path="agenda" href="#">Agenda</a><a class="px-3 py-2 text-on-surface-variant hover:text-on-surface transition-colors font-body-sm text-body-sm" data-path="conferencistas" href="#">Conferencistas</a><a class="px-3 py-2 text-on-surface-variant hover:text-on-surface transition-colors font-body-sm text-body-sm" data-path="ubicacion" href="#">Ubicación</a><a class="px-3 py-2 text-on-surface-variant hover:text-on-surface transition-colors font-body-sm text-body-sm" data-path="contacto" href="#">Contacto</a></nav><div class="flex items-center gap-space-md"><a class="hidden md:inline-flex items-center justify-center px-4 py-2 bg-secondary-container hover:bg-secondary-fixed text-on-secondary-container hover:text-on-secondary font-headline-sm text-label-md rounded-lg font-semibold transition-all shadow-[0_0_16px_rgba(57,169,0,0.3)]" data-path="registro" href="#">Participa en el evento</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 flex-grow bg-surface"><div class="flex flex-col w-full relative selection:bg-secondary selection:text-on-secondary">
+<!-- Ambient Decorative Background Glows (Contained) -->
+<div class="absolute top-10 left-1/2 -translate-x-1/2 w-full max-w-7xl h-96 bg-gradient-to-r from-primary-container/20 via-transparent to-secondary-container/15 blur-3xl pointer-events-none -z-10 rounded-full"></div>
+<div class="absolute top-[1400px] -left-20 w-96 h-96 bg-primary/10 blur-[100px] pointer-events-none -z-10 rounded-full"></div>
+<div class="absolute top-[2800px] -right-20 w-96 h-96 bg-secondary/10 blur-[100px] pointer-events-none -z-10 rounded-full"></div>
+<!-- ========================================== -->
+<!-- 1. SECCIÓN HERO DE ALTO IMPACTO (id="inicio") -->
+<!-- ========================================== -->
+<section class="w-full relative px-margin py-space-xl overflow-hidden" id="inicio">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Left Column: Copy & CTA -->
+<div class="lg:col-span-7 flex flex-col gap-space-md z-10">
+<!-- Institutional Badge -->
+<div class="inline-flex items-center gap-space-sm bg-surface-container-high/80 backdrop-blur-md px-3 py-1.5 rounded-full w-fit shadow-sm">
+<div class="w-2 h-2 rounded-full bg-secondary animate-pulse"></div>
+<span class="font-label-sm text-label-sm text-on-surface tracking-wide uppercase">
+            SENA Regional Risaralda presenta
+          </span>
+<span class="font-label-sm text-label-sm text-primary font-semibold px-2 py-0.5 rounded-full bg-primary-container/20">Edición Oficial</span>
+</div>
+<!-- Headline -->
+<div class="flex flex-col">
+<h1 class="font-headline-xl text-headline-xl font-black tracking-tight text-on-surface leading-none">
+            PYTHON CONF
+            <span class="block bg-gradient-to-r from-primary via-primary-fixed-dim to-secondary bg-clip-text text-transparent">
+              PEREIRA 2026
+            </span>
+</h1>
+<p class="font-headline-md text-headline-md text-on-surface-variant font-medium mt-space-xs">
+            Tres días de conocimiento, innovación y tecnología.
+          </p>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+          Conéctate con el mundo de Python y descubre nuevas oportunidades en desarrollo de software, inteligencia artificial, ciencia de datos y automatización. Un espacio para aprender, compartir experiencias y fortalecer la comunidad tecnológica de Risaralda.
+        </p>
+<!-- Meta Pills -->
+<div class="flex flex-wrap gap-space-sm pt-space-xs">
+<div class="flex items-center gap-2 px-3 py-2 rounded-lg bg-surface-container-low text-on-surface-variant text-body-sm font-body-sm shadow-sm">
+<span class="material-symbols-outlined text-tertiary text-[20px]">calendar_month</span>
+<span class="font-label-sm text-label-sm font-semibold text-on-surface">23, 24 y 25 Noviembre 2026</span>
+</div>
+<div class="flex items-center gap-2 px-3 py-2 rounded-lg bg-surface-container-low text-on-surface-variant text-body-sm font-body-sm shadow-sm">
+<span class="material-symbols-outlined text-primary text-[20px]">location_on</span>
+<span>Expofuturo • Pereira, Colombia</span>
+</div>
+<div class="flex items-center gap-2 px-3 py-2 rounded-lg bg-surface-container-low text-on-surface-variant text-body-sm font-body-sm shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[20px]">group</span>
+<span>Presencial • Registro previo</span>
+</div>
+</div>
+<!-- Hero CTAs -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-sm">
+<a class="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-secondary-container hover:bg-secondary-fixed text-on-secondary-container hover:text-on-secondary font-headline-sm text-body-md rounded-lg font-bold transition-all shadow-[0_0_24px_rgba(57,169,0,0.35)] active:scale-95" href="#registro">
+<span>Quiero participar</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-surface-container-high hover:bg-surface-variant text-on-surface font-label-md text-label-md rounded-lg font-medium transition-all shadow-sm active:scale-95" href="#agenda">
+<span class="text-tertiary font-bold">>_</span>
+<span>Explorar agenda</span>
+</a>
+</div>
+</div>
+<!-- Right Column: Interactive Code IDE Visual + Python/SENA Branding -->
+<div class="lg:col-span-5 flex flex-col items-center justify-center relative">
+<div class="w-full bg-surface-container-lowest rounded-xl shadow-2xl overflow-hidden relative">
+<!-- Terminal Top Bar -->
+<div class="flex items-center justify-between px-4 py-3 bg-surface-container border-b border-outline-variant/10">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-error inline-block"></span>
+<span class="w-3 h-3 rounded-full bg-tertiary inline-block"></span>
+<span class="w-3 h-3 rounded-full bg-secondary inline-block"></span>
+<span class="ml-2 font-code-block text-code-block text-on-surface-variant">conf_pereira_2026.py</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-primary font-bold">Python 3.12+</span>
+</div>
+</div>
+<!-- Code Display with Python Brand Emblem Overlay -->
+<div class="p-space-lg relative flex flex-col gap-2 font-code-block text-code-block">
+<div class="text-outline-variant select-none"># Organizado por SENA Regional Risaralda</div>
+<div><span class="text-secondary font-semibold">import</span> <span class="text-primary font-semibold">sena_risaralda</span> <span class="text-secondary font-semibold">as</span> sena</div>
+<div><span class="text-secondary font-semibold">import</span> <span class="text-primary font-semibold">python_community</span></div>
+<div class="pt-2"><span class="text-secondary font-semibold">async def</span> <span class="text-tertiary font-bold">celebrar_conferencia</span>():</div>
+<div class="pl-4 text-on-surface-variant">
+              sede = <span class="text-secondary-fixed">"Expofuturo Pereira"</span><br/>
+              fechas = [<span class="text-tertiary">"2026-11-23"</span>, <span class="text-tertiary">"2026-11-24"</span>, <span class="text-tertiary">"2026-11-25"</span>]<br/>
+              tracks = [<span class="text-primary">"IA"</span>, <span class="text-primary">"Backend"</span>, <span class="text-primary">"Data"</span>, <span class="text-primary">"IoT"</span>]<br/>
+<span class="text-secondary font-semibold">await</span> sena.potenciar_talento(risaralda=True)<br/>
+<span class="text-secondary font-semibold">return</span> {<span class="text-secondary-fixed">"status"</span>: <span class="text-tertiary font-bold">200</span>, <span class="text-secondary-fixed">"tickets"</span>: <span class="text-secondary-fixed">"Free"</span>}
+            </div>
+<div class="pt-2 text-outline"><span class="text-secondary">>>></span> print(<span class="text-secondary-fixed">"¡Bienvenidos al Eje Cafetero!"</span>)</div>
+<!-- Python Logo Emblem Embedded in High Fidelity -->
+<div class="mt-4 pt-4 border-t border-outline-variant/15 flex items-center justify-between bg-surface-container/60 p-3 rounded-lg">
+<div class="flex items-center gap-3">
+<img alt="Python Programming Language Official Logo" class="h-10 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC069L7dDbF475Nh2T67i_NHTfXJ6aENmEGIredyRuqYMLZC8ffsBZ6durNZmZcxs25ixufIaLiVaa5LuVbB8i9jvavi0OCIuGX8Swg8Zvcd35QUq1-VduAtzeJ1A_gPieD4S2RyXtMd7JPA5azO6Ue3x-KyKhLP0VXdvdR8ndZdPjgac7h6nisDrlSAz6IazF1mRXQQmxZ9uxPG_3OvAFuOlDZNSsziYNdfkcs5-I6LVdiYsL23wvk"/>
+<div>
+<div class="font-headline-sm text-label-md text-on-surface font-bold">Python Software Foundation</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Supported Community Event</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-secondary text-[24px]">verified</span>
+</div>
+</div>
+</div>
+<!-- Subtle backdrop glow pill -->
+<div class="w-3/4 h-8 bg-gradient-to-r from-primary/30 to-secondary/30 blur-xl mx-auto"></div>
+</div>
+</div>
+<!-- ========================================== -->
+<!-- REAL-TIME COUNTDOWN TIMER -->
+<!-- Target: Nov 23, 2026, 08:00 AM UTC-5 (Bogota/Pereira) -->
+<!-- ========================================== -->
+<div class="max-w-5xl mx-auto mt-space-xl p-space-lg rounded-xl bg-surface-container/80 backdrop-blur-xl shadow-xl">
+<div class="flex flex-col md:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm text-left">
+<div class="w-12 h-12 rounded-xl bg-primary-container/20 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">timer</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-semibold">Cuenta Regresiva Oficial</span>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Apertura Python Conf Pereira 2026</h3>
+</div>
+</div>
+<!-- 4 Countdown Cards -->
+<div class="grid grid-cols-4 gap-2 sm:gap-4 w-full md:w-auto text-center" data-target="2026-11-23T08:00:00-05:00" id="countdown-timer">
+<div class="flex flex-col items-center justify-center p-3 rounded-lg bg-surface-container-lowest min-w-[70px] sm:min-w-[84px] shadow-sm">
+<span class="font-headline-lg text-headline-lg font-black text-primary leading-none" id="days">--</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase mt-1 tracking-wider">Días</span>
+</div>
+<div class="flex flex-col items-center justify-center p-3 rounded-lg bg-surface-container-lowest min-w-[70px] sm:min-w-[84px] shadow-sm">
+<span class="font-headline-lg text-headline-lg font-black text-on-surface leading-none" id="hours">--</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase mt-1 tracking-wider">Horas</span>
+</div>
+<div class="flex flex-col items-center justify-center p-3 rounded-lg bg-surface-container-lowest min-w-[70px] sm:min-w-[84px] shadow-sm">
+<span class="font-headline-lg text-headline-lg font-black text-on-surface leading-none" id="minutes">--</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase mt-1 tracking-wider">Min</span>
+</div>
+<div class="flex flex-col items-center justify-center p-3 rounded-lg bg-surface-container-lowest min-w-[70px] sm:min-w-[84px] shadow-sm">
+<span class="font-headline-lg text-headline-lg font-black text-secondary leading-none" id="seconds">--</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase mt-1 tracking-wider">Seg</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 2. SECCIÓN SOBRE EL EVENTO (id="sobre-el-evento") -->
+<!-- ========================================== -->
+<section class="w-full px-margin py-space-xl bg-surface-container-low/40" id="sobre-el-evento">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-lg">
+<!-- Section Header -->
+<div class="flex flex-col max-w-3xl">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Misión & Contexto</span>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface mt-1">
+          Tres días para conectar con el futuro tecnológico
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-space-xs">
+          El SENA Regional Risaralda, como epicentro de formación y desarrollo tecnológico, convoca a talentos, aprendices, investigadores, startups y expertos del mundo Python para crear sinergias de alto impacto en la región cafetera y consolidar a Colombia como potencia de talento software.
+        </p>
+</div>
+<!-- 4 Core Concept Cards -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<div class="p-space-lg rounded-xl bg-surface-container hover:bg-surface-container-high transition-all flex flex-col gap-space-sm shadow-md group">
+<div class="w-12 h-12 rounded-lg bg-primary-container/20 flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[28px]">lightbulb</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Innovación tecnológica</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Descubre las tendencias que están revolucionando los sectores productivos con Python: desde LLMs y Visión Artificial hasta microservicios de alto desempeño.
+          </p>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container hover:bg-surface-container-high transition-all flex flex-col gap-space-sm shadow-md group">
+<div class="w-12 h-12 rounded-lg bg-secondary-container/20 flex items-center justify-center text-secondary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[28px]">hub</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Comunidad de desarrolladores</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Networking de valor real entre aprendices SENA, comunidades Open Source colombianas, empresas contratantes y ponentes internacionales de alto calibre.
+          </p>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container hover:bg-surface-container-high transition-all flex flex-col gap-space-sm shadow-md group">
+<div class="w-12 h-12 rounded-lg bg-tertiary-container/20 flex items-center justify-center text-tertiary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[28px]">school</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Aprendizaje y conocimiento</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Workshops prácticos hands-on en laboratorios equipados, sesiones especializadas de clean code y masterclasses de arquitectura distribuida.
+          </p>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container hover:bg-surface-container-high transition-all flex flex-col gap-space-sm shadow-md group">
+<div class="w-12 h-12 rounded-lg bg-primary-container/20 flex items-center justify-center text-primary-fixed-dim group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[28px]">rocket_launch</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Transformación digital</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Impulso a proyectos con impacto social, agroindustria tecnificada y soluciones empresariales nacidas desde el Eje Cafetero para el mundo.
+          </p>
+</div>
+</div>
+<!-- Banner Institucional SENA Destacado -->
+<div class="p-space-lg rounded-xl bg-gradient-to-r from-surface-container-high via-surface-container to-surface-container-low flex flex-col md:flex-row items-center justify-between gap-space-md shadow-lg">
+<div class="flex items-center gap-space-md">
+<div class="p-3 bg-surface-container-lowest rounded-xl shadow-inner flex-shrink-0">
+<img alt="SENA Logo Oficial Regional Risaralda" class="h-16 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQRbsZ0HdV4CftC33oUdMg0tC2xArNbVyFDwDa4-HSwXTgxtTLshPtvFnMMCSSJvSRV1a5CWpXQlspiq0Bsb8f1Tt8A09wwW5kYGunRXfZD8lvmBv9khlQYQxnHXMjzbEX4qO1KVvnNp6_RbQhKvyf9D5Ckwp9aRDKb_o4ZgHmo0SJ0XHzSaqbsju4PF2FgLS7whhpuXGA7vXrPNui5aEzeuHVZdAhevkQBcgqUIqAJM0u-AX6Kx9o"/>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Compromiso SENA Regional Risaralda</span>
+<p class="font-headline-sm text-headline-sm font-bold text-on-surface mt-0.5">
+              Formación profesional integral que impulsa la economía del conocimiento en Colombia
+            </p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+              Con más de 65 años democratizando la técnica y la ciencia aplicada en beneficio del país.
+            </p>
+</div>
+</div>
+<div class="flex-shrink-0">
+<a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-surface-container-highest hover:bg-surface-bright text-on-surface font-label-md text-label-md font-semibold transition-all" href="#contacto">
+<span>Canales Institucionales</span>
+<span class="material-symbols-outlined text-[18px]">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 3. SECCIÓN TEMÁTICAS DEL EVENTO (id="tematicas") -->
+<!-- ========================================== -->
+<section class="w-full px-margin py-space-xl" id="tematicas">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-lg">
+<!-- Section Header -->
+<div class="flex flex-col text-center max-w-2xl mx-auto">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">Ejes Académicos</span>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface mt-1">
+          Explora el universo Python
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+          Seis líneas de inmersión técnica diseñadas tanto para aprendices en formación como para ingenieros de software senior y científicos de datos.
+        </p>
+</div>
+<!-- 6 Thematic Grid Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<!-- Track 1 -->
+<div class="p-space-lg rounded-xl bg-surface-container hover:bg-surface-container-high transition-all flex flex-col justify-between gap-space-md shadow-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm font-semibold px-2.5 py-1 rounded bg-primary-container/20 text-primary">Track 01</span>
+<span class="material-symbols-outlined text-primary text-[24px]">terminal</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Python y Desarrollo de Software</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Patrones de diseño modernos, principios SOLID, Clean Code, pruebas automatizadas con PyTest, perfiles de rendimiento y tipado estricto con Mypy.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1.5 pt-space-xs">
+<span class="font-code-block text-code-block px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant">pytest</span>
+<span class="font-code-block text-code-block px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant">clean-code</span>
+<span class="font-code-block text-code-block px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant">typing</span>
+</div>
+</div>
+<!-- Track 2 -->
+<div class="p-space-lg rounded-xl bg-surface-container hover:bg-surface-container-high transition-all flex flex-col justify-between gap-space-md shadow-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm font-semibold px-2.5 py-1 rounded bg-secondary-container/20 text-secondary">Track 02</span>
+<span class="material-symbols-outlined text-secondary text-[24px]">psychology</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Inteligencia Artificial y ML</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Modelos de lenguaje extensos (LLMs), fine-tuning, agentes autónomos, redes neuronales profundas con PyTorch, Hugging Face y visión por computadora.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1.5 pt-space-xs">
+<span class="font-code-block text-code-block px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant">pytorch</span>
+<span class="font-code-block text-code-block px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant">llms</span>
+<span class="font-code-block text-code-block px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant">langchain</span>
+</div>
+</div>
+<!-- Track 3 -->
+<div class="p-space-lg rounded-xl bg-surface-container hover:bg-surface-container-high transition-all flex flex-col justify-between gap-space-md shadow-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm font-semibold px-2.5 py-1 rounded bg-tertiary-container/20 text-tertiary">Track 03</span>
+<span class="material-symbols-outlined text-tertiary text-[24px]">analytics</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Ciencia y Análisis de Datos</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Procesamiento de datos a gran escala con Polars y Pandas, pipelines de ETL, análisis exploratorio, visualización interactiva y Business Intelligence.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1.5 pt-space-xs">
+<span class="font-code-block text-code-block px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant">polars</span>
+<span class="font-code-block text-code-block px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant">pandas</span>
+<span class="font-code-block text-code-block px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant">seaborn</span>
+</div>
+</div>
+<!-- Track 4 -->
+<div class="p-space-lg rounded-xl bg-surface-container hover:bg-surface-container-high transition-all flex flex-col justify-between gap-space-md shadow-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm font-semibold px-2.5 py-1 rounded bg-secondary-container/20 text-secondary-fixed">Track 04</span>
+<span class="material-symbols-outlined text-secondary-fixed text-[24px]">settings_suggest</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Automatización de Procesos</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              RPA con herramientas abiertas, automatización de flujos de trabajo empresariales, web scraping ético, orquestación de tareas con Airflow y Celery.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1.5 pt-space-xs">
+<span class="font-code-block text-code-block px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant">airflow</span>
+<span class="font-code-block text-code-block px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant">playwright</span>
+<span class="font-code-block text-code-block px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant">rpa</span>
+</div>
+</div>
+<!-- Track 5 -->
+<div class="p-space-lg rounded-xl bg-surface-container hover:bg-surface-container-high transition-all flex flex-col justify-between gap-space-md shadow-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm font-semibold px-2.5 py-1 rounded bg-primary-container/20 text-primary-fixed">Track 05</span>
+<span class="material-symbols-outlined text-primary-fixed text-[24px]">api</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Desarrollo Web y APIs</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Microservicios asíncronos ultrarrápidos con FastAPI, aplicaciones robustas con Django 5, arquitecturas basadas en eventos y GraphQL.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1.5 pt-space-xs">
+<span class="font-code-block text-code-block px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant">fastapi</span>
+<span class="font-code-block text-code-block px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant">django</span>
+<span class="font-code-block text-code-block px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant">asyncio</span>
+</div>
+</div>
+<!-- Track 6 -->
+<div class="p-space-lg rounded-xl bg-surface-container hover:bg-surface-container-high transition-all flex flex-col justify-between gap-space-md shadow-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm font-semibold px-2.5 py-1 rounded bg-tertiary-container/20 text-tertiary-fixed">Track 06</span>
+<span class="material-symbols-outlined text-tertiary-fixed text-[24px]">devices</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Innovación y Tecnologías Emergentes</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Internet de las Cosas (IoT) con MicroPython, sensores inteligentes para agricultura de precisión en Risaralda, Cloud Native y Edge Computing.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1.5 pt-space-xs">
+<span class="font-code-block text-code-block px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant">micropython</span>
+<span class="font-code-block text-code-block px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant">edge-ai</span>
+<span class="font-code-block text-code-block px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant">iot</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 4. SECCIÓN AGENDA DEL EVENTO (id="agenda") -->
+<!-- ========================================== -->
+<section class="w-full px-margin py-space-xl bg-surface-container-low/30" id="agenda">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-lg">
+<!-- Agenda Header & Status Disclaimer -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Cronograma Académico</span>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface mt-1">
+            Tres días de experiencias y conocimiento
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+            Conferencias plenarias, masterclasses simultáneas y laboratorios prácticos en Expofuturo.
+          </p>
+</div>
+<!-- Live Disclaimer Badge -->
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-container-high text-tertiary font-label-sm text-label-sm self-start md:self-auto shadow-sm">
+<span class="material-symbols-outlined text-[18px]">info</span>
+<span>Programación demostrativa preliminar — Sujeta a confirmación oficial</span>
+</div>
+</div>
+<!-- Functional Tab Selector -->
+<div class="flex flex-wrap items-center gap-2 border-b border-surface-variant pb-2" role="tablist">
+<button class="px-5 py-3 rounded-lg font-headline-sm text-label-md font-semibold transition-all bg-primary text-on-primary shadow-sm flex items-center gap-2 cursor-pointer" id="tab-btn-day1" onclick="switchDay('day1')">
+<span class="material-symbols-outlined text-[18px]">event</span>
+<span>Día 1 — Lunes 23 de noviembre</span>
+</button>
+<button class="px-5 py-3 rounded-lg font-headline-sm text-label-md font-semibold transition-all bg-surface-container hover:bg-surface-container-high text-on-surface-variant cursor-pointer flex items-center gap-2" id="tab-btn-day2" onclick="switchDay('day2')">
+<span class="material-symbols-outlined text-[18px]">event</span>
+<span>Día 2 — Martes 24 de noviembre</span>
+</button>
+<button class="px-5 py-3 rounded-lg font-headline-sm text-label-md font-semibold transition-all bg-surface-container hover:bg-surface-container-high text-on-surface-variant cursor-pointer flex items-center gap-2" id="tab-btn-day3" onclick="switchDay('day3')">
+<span class="material-symbols-outlined text-[18px]">event</span>
+<span>Día 3 — Miércoles 25 de noviembre</span>
+</button>
+</div>
+<!-- Day 1 Panel -->
+<div class="flex flex-col gap-space-md" id="panel-day1">
+<div class="p-space-md rounded-lg bg-surface-container-high/60 flex items-center justify-between">
+<div class="flex items-center gap-2 text-on-surface">
+<span class="font-headline-sm text-headline-sm font-bold text-primary">Día 1:</span>
+<span class="font-body-md text-body-md font-medium">Apertura Institucional SENA, Fundamentos de Ecosistema & Desarrollo Web</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Lunes 23 de Noviembre, 2026</span>
+</div>
+<div class="grid grid-cols-1 gap-space-sm">
+<!-- Item 1 -->
+<div class="p-space-lg rounded-xl bg-surface-container hover:bg-surface-container-high transition-all flex flex-col lg:flex-row lg:items-center justify-between gap-space-md shadow-md">
+<div class="flex items-start gap-space-md">
+<div class="flex flex-col items-center justify-center p-3 rounded-lg bg-surface-container-lowest min-w-[100px] text-center">
+<span class="font-label-sm text-label-sm text-tertiary font-bold">08:00 - 09:30</span>
+<span class="font-label-sm text-label-sm text-outline">Plenaria</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded bg-secondary-container/20 text-secondary font-semibold">Institucional SENA</span>
+<span class="text-on-surface-variant text-body-sm font-body-sm">• Auditorio Principal</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface mt-1">Acto de Apertura & Python como Catalizador del Talento Digital en Colombia</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                  Bienvenida oficial de directivos del SENA Regional Risaralda y líderes de la comunidad Python Colombia sobre la proyección de la industria 4.0.
+                </p>
+<div class="mt-2 font-label-sm text-label-sm text-primary font-medium">Speaker provisional: Delegación SENA Risaralda & Keynote Invitado</div>
+</div>
+</div>
+<div class="flex items-center gap-2 self-start lg:self-center">
+<span class="font-label-sm text-label-sm px-3 py-1 rounded-full bg-surface-container-lowest text-outline">Programación demostrativa preliminar</span>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="p-space-lg rounded-xl bg-surface-container hover:bg-surface-container-high transition-all flex flex-col lg:flex-row lg:items-center justify-between gap-space-md shadow-md">
+<div class="flex items-start gap-space-md">
+<div class="flex flex-col items-center justify-center p-3 rounded-lg bg-surface-container-lowest min-w-[100px] text-center">
+<span class="font-label-sm text-label-sm text-tertiary font-bold">10:00 - 11:30</span>
+<span class="font-label-sm text-label-sm text-outline">Conferencia</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded bg-primary-container/20 text-primary font-semibold">Python Core</span>
+<span class="text-on-surface-variant text-body-sm font-body-sm">• Auditorio Principal</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface mt-1">Python Moderno a Fondo: Características Avanzadas en 3.12 y 3.13</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                  Optimizaciones del intérprete Faster CPython, no-GIL preview, manejo refinado de excepciones y tipado estático con Generics avanzados.
+                </p>
+<div class="mt-2 font-label-sm text-label-sm text-primary font-medium">Speaker provisional: Core Developer en confirmación</div>
+</div>
+</div>
+<div class="flex items-center gap-2 self-start lg:self-center">
+<span class="font-label-sm text-label-sm px-3 py-1 rounded-full bg-surface-container-lowest text-outline">Programación demostrativa preliminar</span>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="p-space-lg rounded-xl bg-surface-container hover:bg-surface-container-high transition-all flex flex-col lg:flex-row lg:items-center justify-between gap-space-md shadow-md">
+<div class="flex items-start gap-space-md">
+<div class="flex flex-col items-center justify-center p-3 rounded-lg bg-surface-container-lowest min-w-[100px] text-center">
+<span class="font-label-sm text-label-sm text-tertiary font-bold">14:00 - 17:00</span>
+<span class="font-label-sm text-label-sm text-outline">Taller Hands-On</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded bg-tertiary-container/20 text-tertiary font-semibold">Backend Moderno</span>
+<span class="text-on-surface-variant text-body-sm font-body-sm">• Sala Tech SENA 1</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface mt-1">Workshop: Arquitecturas Asíncronas de Alta Concurrencia con FastAPI y Redis</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                  Construcción paso a paso de una API RESTful con soporte WebSockets, autenticación JWT, rate-limiting y pruebas de carga distribuidas.
+                </p>
+<div class="mt-2 font-label-sm text-label-sm text-primary font-medium">Instructor SENA / Experto invitado</div>
+</div>
+</div>
+<div class="flex items-center gap-2 self-start lg:self-center">
+<span class="font-label-sm text-label-sm px-3 py-1 rounded-full bg-surface-container-lowest text-outline">Programación demostrativa preliminar</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Day 2 Panel (Hidden initially) -->
+<div class="hidden flex flex-col gap-space-md" id="panel-day2">
+<div class="p-space-md rounded-lg bg-surface-container-high/60 flex items-center justify-between">
+<div class="flex items-center gap-2 text-on-surface">
+<span class="font-headline-sm text-headline-sm font-bold text-secondary">Día 2:</span>
+<span class="font-body-md text-body-md font-medium">Data Science, Machine Learning, Deep Learning e Inteligencia Artificial</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Martes 24 de Noviembre, 2026</span>
+</div>
+<div class="grid grid-cols-1 gap-space-sm">
+<!-- Item 1 -->
+<div class="p-space-lg rounded-xl bg-surface-container hover:bg-surface-container-high transition-all flex flex-col lg:flex-row lg:items-center justify-between gap-space-md shadow-md">
+<div class="flex items-start gap-space-md">
+<div class="flex flex-col items-center justify-center p-3 rounded-lg bg-surface-container-lowest min-w-[100px] text-center">
+<span class="font-label-sm text-label-sm text-tertiary font-bold">09:00 - 10:30</span>
+<span class="font-label-sm text-label-sm text-outline">Keynote</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded bg-secondary-container/20 text-secondary font-semibold">Inteligencia Artificial</span>
+<span class="text-on-surface-variant text-body-sm font-body-sm">• Auditorio Principal</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface mt-1">Ecosistema de Agentes Autónomos y LLMs Open Source con LangGraph</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                  Patrones de diseño de agentes inteligentes, memoria vectorial, RAG avanzado y evaluación cuantitativa en entornos productivos.
+                </p>
+<div class="mt-2 font-label-sm text-label-sm text-primary font-medium">Speaker provisional: Investigador AI Internacional</div>
+</div>
+</div>
+<div class="flex items-center gap-2 self-start lg:self-center">
+<span class="font-label-sm text-label-sm px-3 py-1 rounded-full bg-surface-container-lowest text-outline">Programación demostrativa preliminar</span>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="p-space-lg rounded-xl bg-surface-container hover:bg-surface-container-high transition-all flex flex-col lg:flex-row lg:items-center justify-between gap-space-md shadow-md">
+<div class="flex items-start gap-space-md">
+<div class="flex flex-col items-center justify-center p-3 rounded-lg bg-surface-container-lowest min-w-[100px] text-center">
+<span class="font-label-sm text-label-sm text-tertiary font-bold">11:00 - 12:30</span>
+<span class="font-label-sm text-label-sm text-outline">Conferencia</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded bg-primary-container/20 text-primary font-semibold">Ciencia de Datos</span>
+<span class="text-on-surface-variant text-body-sm font-body-sm">• Sala Tech SENA 2</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface mt-1">De Pandas a Polars: Transformación de Datos Ultrarrápida en Memoria</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                  Cómo acelerar el análisis de millones de filas aprovechando multihilo nativo y Apache Arrow en entornos Python.
+                </p>
+<div class="mt-2 font-label-sm text-label-sm text-primary font-medium">Speaker provisional: Data Architect Nacional</div>
+</div>
+</div>
+<div class="flex items-center gap-2 self-start lg:self-center">
+<span class="font-label-sm text-label-sm px-3 py-1 rounded-full bg-surface-container-lowest text-outline">Programación demostrativa preliminar</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Day 3 Panel (Hidden initially) -->
+<div class="hidden flex flex-col gap-space-md" id="panel-day3">
+<div class="p-space-md rounded-lg bg-surface-container-high/60 flex items-center justify-between">
+<div class="flex items-center gap-2 text-on-surface">
+<span class="font-headline-sm text-headline-sm font-bold text-tertiary">Día 3:</span>
+<span class="font-body-md text-body-md font-medium">Cloud, Microservicios, Hackathon SENA Innova & Clausura Oficial</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Miércoles 25 de Noviembre, 2026</span>
+</div>
+<div class="grid grid-cols-1 gap-space-sm">
+<!-- Item 1 -->
+<div class="p-space-lg rounded-xl bg-surface-container hover:bg-surface-container-high transition-all flex flex-col lg:flex-row lg:items-center justify-between gap-space-md shadow-md">
+<div class="flex items-start gap-space-md">
+<div class="flex flex-col items-center justify-center p-3 rounded-lg bg-surface-container-lowest min-w-[100px] text-center">
+<span class="font-label-sm text-label-sm text-tertiary font-bold">08:30 - 13:00</span>
+<span class="font-label-sm text-label-sm text-outline">Hackathon</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded bg-secondary-container/20 text-secondary font-semibold">Hackathon SENA</span>
+<span class="text-on-surface-variant text-body-sm font-body-sm">• Gran Salón Risaralda</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface mt-1">Hackathon Python: Soluciones de Innovación para el Eje Cafetero</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                  Maratón de prototipado donde aprendices y desarrolladores construyen prototipos con MicroPython, IA y Cloud para problemáticas locales.
+                </p>
+<div class="mt-2 font-label-sm text-label-sm text-primary font-medium">Jurado calificador SENA & Mentores de la Industria</div>
+</div>
+</div>
+<div class="flex items-center gap-2 self-start lg:self-center">
+<span class="font-label-sm text-label-sm px-3 py-1 rounded-full bg-surface-container-lowest text-outline">Programación demostrativa preliminar</span>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="p-space-lg rounded-xl bg-surface-container hover:bg-surface-container-high transition-all flex flex-col lg:flex-row lg:items-center justify-between gap-space-md shadow-md">
+<div class="flex items-start gap-space-md">
+<div class="flex flex-col items-center justify-center p-3 rounded-lg bg-surface-container-lowest min-w-[100px] text-center">
+<span class="font-label-sm text-label-sm text-tertiary font-bold">15:00 - 17:30</span>
+<span class="font-label-sm text-label-sm text-outline">Clausura</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded bg-primary-container/20 text-primary font-semibold">Premios & Certificación</span>
+<span class="text-on-surface-variant text-body-sm font-body-sm">• Auditorio Principal</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface mt-1">Premiación Hackathon, Reconocimientos & Clausura Python Conf Pereira 2026</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                  Entrega de certificaciones de asistencia avaladas por el SENA, anuncio de proyectos ganadores y cocktail oficial de networking.
+                </p>
+<div class="mt-2 font-label-sm text-label-sm text-primary font-medium">Dirección SENA Regional Risaralda</div>
+</div>
+</div>
+<div class="flex items-center gap-2 self-start lg:self-center">
+<span class="font-label-sm text-label-sm px-3 py-1 rounded-full bg-surface-container-lowest text-outline">Programación demostrativa preliminar</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 5. SECCIÓN CONFERENCISTAS (id="conferencistas") -->
+<!-- ========================================== -->
+<section class="w-full px-margin py-space-xl" id="conferencistas">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-lg">
+<!-- Section Header -->
+<div class="flex flex-col text-center max-w-3xl mx-auto">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Comité Académico</span>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface mt-1">
+          Conoce a nuestros conferencistas
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+          Listado oficial en proceso de confirmación. Próximamente se anunciarán los speakers nacionales e internacionales que compartirán su visión en Pereira.
+        </p>
+</div>
+<!-- Speakers Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Speaker 1 Placeholder Card -->
+<div class="p-space-lg rounded-xl bg-surface-container hover:bg-surface-container-high transition-all flex flex-col items-center text-center gap-space-sm shadow-md">
+<div class="w-24 h-24 rounded-full bg-surface-container-highest flex items-center justify-center text-primary relative overflow-hidden shadow-inner">
+<span class="material-symbols-outlined text-[48px]">person</span>
+<div class="absolute bottom-0 inset-x-0 bg-primary/20 text-center py-0.5">
+<span class="font-label-sm text-[10px] text-primary font-bold">KEYNOTE</span>
+</div>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm px-2.5 py-0.5 rounded-full bg-secondary-container/20 text-secondary font-semibold">AI Specialist</span>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface mt-2">Speaker Invitado IA</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Investigación en LLMs & Agentes Autónomos</p>
+</div>
+<div class="font-label-sm text-label-sm text-outline italic">Tema: Arquitectura de Software Cognitivo</div>
+<div class="flex items-center gap-3 pt-2 text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px] hover:text-primary cursor-pointer">link</span>
+<span class="material-symbols-outlined text-[20px] hover:text-primary cursor-pointer">share</span>
+</div>
+</div>
+<!-- Speaker 2 Placeholder Card -->
+<div class="p-space-lg rounded-xl bg-surface-container hover:bg-surface-container-high transition-all flex flex-col items-center text-center gap-space-sm shadow-md">
+<div class="w-24 h-24 rounded-full bg-surface-container-highest flex items-center justify-center text-secondary relative overflow-hidden shadow-inner">
+<span class="material-symbols-outlined text-[48px]">person</span>
+<div class="absolute bottom-0 inset-x-0 bg-secondary/20 text-center py-0.5">
+<span class="font-label-sm text-[10px] text-secondary font-bold">CORE</span>
+</div>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm px-2.5 py-0.5 rounded-full bg-primary-container/20 text-primary font-semibold">Core Developer</span>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface mt-2">Especialista Python</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Contribuidor al Ecosistema Open Source</p>
+</div>
+<div class="font-label-sm text-label-sm text-outline italic">Tema: Rendimiento y CPython Internals</div>
+<div class="flex items-center gap-3 pt-2 text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px] hover:text-primary cursor-pointer">link</span>
+<span class="material-symbols-outlined text-[20px] hover:text-primary cursor-pointer">share</span>
+</div>
+</div>
+<!-- Speaker 3 Placeholder Card -->
+<div class="p-space-lg rounded-xl bg-surface-container hover:bg-surface-container-high transition-all flex flex-col items-center text-center gap-space-sm shadow-md">
+<div class="w-24 h-24 rounded-full bg-surface-container-highest flex items-center justify-center text-tertiary relative overflow-hidden shadow-inner">
+<span class="material-symbols-outlined text-[48px]">person</span>
+<div class="absolute bottom-0 inset-x-0 bg-tertiary/20 text-center py-0.5">
+<span class="font-label-sm text-[10px] text-tertiary font-bold">SENA</span>
+</div>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm px-2.5 py-0.5 rounded-full bg-tertiary-container/20 text-tertiary font-semibold">SENA Lead Instructor</span>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface mt-2">Instructor SENA Risaralda</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Líder Semillero de Desarrollo de Software</p>
+</div>
+<div class="font-label-sm text-label-sm text-outline italic">Tema: Formación Técnica para la Industria Global</div>
+<div class="flex items-center gap-3 pt-2 text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px] hover:text-primary cursor-pointer">link</span>
+<span class="material-symbols-outlined text-[20px] hover:text-primary cursor-pointer">share</span>
+</div>
+</div>
+<!-- Speaker 4 Placeholder Card -->
+<div class="p-space-lg rounded-xl bg-surface-container hover:bg-surface-container-high transition-all flex flex-col items-center text-center gap-space-sm shadow-md">
+<div class="w-24 h-24 rounded-full bg-surface-container-highest flex items-center justify-center text-primary-fixed relative overflow-hidden shadow-inner">
+<span class="material-symbols-outlined text-[48px]">person</span>
+<div class="absolute bottom-0 inset-x-0 bg-primary-fixed/20 text-center py-0.5">
+<span class="font-label-sm text-[10px] text-primary-fixed font-bold">DATA</span>
+</div>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm px-2.5 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-semibold">Data Architect</span>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface mt-2">Experto en Big Data</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Líder Técnico de Analítica Predictiva</p>
+</div>
+<div class="font-label-sm text-label-sm text-outline italic">Tema: Pipelines Distribuidos y Polars</div>
+<div class="flex items-center gap-3 pt-2 text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px] hover:text-primary cursor-pointer">link</span>
+<span class="material-symbols-outlined text-[20px] hover:text-primary cursor-pointer">share</span>
+</div>
+</div>
+</div>
+<!-- Call for Proposals Note -->
+<div class="p-space-md rounded-xl bg-surface-container-low text-center flex flex-col sm:flex-row items-center justify-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[24px]">campaign</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">
+          ¿Deseas postular tu charla técnica o taller? La convocatoria del Call for Papers (CFP) oficial será anunciada a través de las redes de SENA Risaralda.
+        </span>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 6. SECCIÓN LUGAR DEL EVENTO (id="ubicacion") -->
+<!-- ========================================== -->
+<section class="w-full px-margin py-space-xl bg-surface-container-low/40" id="ubicacion">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col max-w-3xl">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">Sede Oficial</span>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface mt-1">
+          Nos vemos en Expofuturo, Pereira
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-space-xs">
+          El centro de convenciones y exposiciones más moderno del Eje Cafetero, con infraestructura de clase mundial para albergar eventos de alta exigencia tecnológica.
+        </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-stretch">
+<!-- Left Column: Venue Details -->
+<div class="lg:col-span-6 flex flex-col justify-between p-space-lg rounded-xl bg-surface-container shadow-md gap-space-md">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-primary-container/20 text-primary flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[24px]">pin_drop</span>
+</div>
+<div class="flex flex-col">
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Centro de Convenciones Expofuturo</h3>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Av. Sur Carrera 19 # 93-02, Pereira, Risaralda, Colombia</span>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm pt-space-xs">
+<div class="p-3 rounded-lg bg-surface-container-low flex flex-col gap-1">
+<div class="flex items-center gap-1.5 text-secondary">
+<span class="material-symbols-outlined text-[18px]">groups</span>
+<span class="font-label-sm text-label-sm font-semibold">Capacidad</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Salones modulares para más de 1,500 asistentes simultáneos.</span>
+</div>
+<div class="p-3 rounded-lg bg-surface-container-low flex flex-col gap-1">
+<div class="flex items-center gap-1.5 text-primary">
+<span class="material-symbols-outlined text-[18px]">wifi</span>
+<span class="font-label-sm text-label-sm font-semibold">Conectividad</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Red de fibra óptica redundante de alta velocidad para workshops.</span>
+</div>
+<div class="p-3 rounded-lg bg-surface-container-low flex flex-col gap-1">
+<div class="flex items-center gap-1.5 text-tertiary">
+<span class="material-symbols-outlined text-[18px]">flight</span>
+<span class="font-label-sm text-label-sm font-semibold">Aeropuerto Matecaña</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">A sólo 10 minutos en transporte terrestre desde la terminal aérea.</span>
+</div>
+<div class="p-3 rounded-lg bg-surface-container-low flex flex-col gap-1">
+<div class="flex items-center gap-1.5 text-on-surface">
+<span class="material-symbols-outlined text-[18px]">local_parking</span>
+<span class="font-label-sm text-label-sm font-semibold">Parqueadero</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Zona de estacionamiento vigilado y fácil acceso por Megabús.</span>
+</div>
+</div>
+</div>
+<div class="pt-space-xs">
+<a class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-primary text-on-primary font-headline-sm text-label-md font-bold hover:bg-primary-fixed transition-all w-full sm:w-auto shadow-md" href="https://maps.google.com/?q=Expofuturo+Pereira+Colombia" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">directions</span>
+<span>Cómo llegar en Google Maps</span>
+</a>
+</div>
+</div>
+<!-- Right Column: Interactive Map & Visual Frame -->
+<div class="lg:col-span-6 flex flex-col gap-space-sm rounded-xl overflow-hidden shadow-lg bg-surface-container">
+<div class="w-full h-80 relative bg-surface-container-lowest">
+<!-- Safe Embed Google Maps Iframe -->
+<iframe class="w-full h-full border-0 grayscale contrast-125 opacity-90 hover:opacity-100 transition-opacity" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Expofuturo+Pereira+Colombia&t=&z=15&ie=UTF8&iwloc=&output=embed" title="Ubicación Expofuturo Pereira">
+</iframe>
+</div>
+<div class="p-4 flex items-center justify-between bg-surface-container-high">
+<div class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[20px]">verified</span>
+<span class="font-label-sm text-label-sm font-semibold">Pereira • Capital del Eje Cafetero</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Clima promedio: 22°C</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 7. SECCIÓN PARTICIPA EN PYTHON CONF PEREIRA (id="registro") -->
+<!-- ========================================== -->
+<section class="w-full px-margin py-space-xl relative overflow-hidden" id="registro">
+<div class="max-w-5xl mx-auto rounded-2xl bg-gradient-to-br from-surface-container-high via-surface-container to-surface-container-low p-space-xl text-center flex flex-col items-center gap-space-md shadow-2xl relative">
+<div class="w-16 h-16 rounded-2xl bg-secondary-container/20 text-secondary flex items-center justify-center shadow-lg">
+<span class="material-symbols-outlined text-[36px]">confirmation_number</span>
+</div>
+<div class="flex flex-col max-w-2xl">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Inscripción y Participación</span>
+<h2 class="font-headline-lg text-headline-lg font-black text-on-surface mt-1">
+          ¡Sé parte de la comunidad Python!
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-space-xs">
+          Vive tres días de aprendizaje, innovación y experiencias que conectan el talento con las oportunidades del mundo tecnológico.
+        </p>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-space-md w-full justify-center pt-space-xs">
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-secondary-container hover:bg-secondary-fixed text-on-secondary-container hover:text-on-secondary font-headline-sm text-body-md rounded-lg font-bold transition-all shadow-[0_0_24px_rgba(57,169,0,0.4)] active:scale-95" href="#contacto">
+<span class="material-symbols-outlined text-[20px]">how_to_reg</span>
+<span>Quiero participar</span>
+</a>
+</div>
+<!-- Registration note -->
+<div class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-surface-container-lowest text-on-surface-variant font-label-sm text-label-sm shadow-inner">
+<span class="material-symbols-outlined text-tertiary text-[18px]">notification_important</span>
+<span>Las inscripciones oficiales se abrirán próximamente. Regístrate en nuestro canal para recibir la alerta prioritaria.</span>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 9. REPOSITORIO Y ESTRUCTURA DE ARCHIVOS TÉCNICOS (ACORDEÓN DESPLEGABLE) -->
+<!-- ========================================== -->
+<section class="w-full px-margin py-space-md">
+<div class="max-w-7xl mx-auto">
+<div class="rounded-xl bg-surface-container-low shadow-sm overflow-hidden">
+<button class="w-full p-space-md flex items-center justify-between text-left hover:bg-surface-container transition-colors cursor-pointer" onclick="toggleTechnicalDetails()">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[24px]">folder_zip</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-label-md font-bold text-on-surface">Estructura técnica y entrega del proyecto</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Archivos base configurables (config.js, index.html, main.js)</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant transition-transform" id="tech-chevron">expand_more</span>
+</button>
+<div class="hidden p-space-lg bg-surface-container-lowest border-t border-outline-variant/10 flex flex-col gap-space-md font-code-block text-code-block" id="technical-panel">
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            A continuación se presenta la distribución modular recomendada para la administración del portal:
+          </p>
+<div class="p-space-md rounded-lg bg-surface-container text-on-surface-variant overflow-x-auto leading-relaxed">
+<span class="text-secondary font-bold">python-conf-pereira/</span><br/>
+            ├── <span class="text-primary font-semibold">index.html</span>             <span class="text-outline"># Landing page estructurada accesible</span><br/>
+            ├── <span class="text-primary font-semibold">config.js</span>              <span class="text-outline"># Objeto con fechas, endpoints y links de WhatsApp</span><br/>
+            ├── <span class="text-primary font-semibold">main.js</span>                <span class="text-outline"># Lógica de cuenta regresiva y tabs</span><br/>
+            └── <span class="text-primary font-semibold">styles.css</span>             <span class="text-outline"># Extensiones de diseño atómicas</span>
+</div>
+<!-- Configuration Object Sample -->
+<div class="flex flex-col gap-1">
+<span class="text-primary font-label-sm text-label-sm font-bold">config.js — Parámetros Globales:</span>
+<pre class="p-3 rounded-lg bg-surface-container text-on-surface overflow-x-auto"><code>const EVENT_CONFIG = {
+  eventName: "Python Conf Pereira 2026",
+  organizer: "SENA Regional Risaralda",
+  targetDate: "2026-11-23T08:00:00-05:00",
+  venue: "Centro de Convenciones Expofuturo, Pereira",
+  whatsAppNumber: "573000000000",
+  registrationOpen: false
+};</code></pre>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 8. SECCIÓN CONTACTO & CANALES OFICIALES (id="contacto") -->
+<!-- ========================================== -->
+<section class="w-full px-margin py-space-xl" id="contacto">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col max-w-2xl">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Atención Directa</span>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface mt-1">
+          Canales de contacto oficial
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+          ¿Tienes inquietudes sobre la vinculación institucional, patrocinios o participación académica? Comunícate con nosotros.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<!-- WhatsApp Direct -->
+<a class="p-space-lg rounded-xl bg-surface-container hover:bg-surface-container-high transition-all flex flex-col gap-space-sm shadow-md group" href="https://wa.me/57NUMERO_WHATSAPP?text=Hola%2C%20quiero%20recibir%20informaci%C3%B3n%20sobre%20Python%20Conf%20Pereira%202026%2C%20que%20se%20realizar%C3%A1%20del%2023%20al%2025%20de%20noviembre%20en%20Expofuturo." rel="noopener noreferrer" target="_blank">
+<div class="w-12 h-12 rounded-lg bg-secondary-container/20 text-secondary flex items-center justify-center group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[28px]">chat</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface">Línea WhatsApp</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Atención inmediata a preguntas frecuentes e inscripciones.</p>
+<span class="font-label-sm text-label-sm text-secondary font-semibold mt-auto pt-2 flex items-center gap-1">
+<span>Iniciar chat directo</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</span>
+</a>
+<!-- Correo Institucional -->
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col gap-space-sm shadow-md">
+<div class="w-12 h-12 rounded-lg bg-primary-container/20 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[28px]">mail</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface">Correo Electrónico</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Consultas de ponencias, empresas aliadas y prensa regional.</p>
+<span class="font-label-sm text-label-sm text-primary font-semibold mt-auto pt-2">contacto@pythonconfpereira.co</span>
+</div>
+<!-- Sede SENA Risaralda -->
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col gap-space-sm shadow-md">
+<div class="w-12 h-12 rounded-lg bg-tertiary-container/20 text-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined text-[28px]">account_balance</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface">SENA Regional Risaralda</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Centro de Diseño e Innovación Tecnológica Industrial (CDITI).</p>
+<span class="font-label-sm text-label-sm text-tertiary font-semibold mt-auto pt-2">Dosquebradas / Pereira</span>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 8. BOTÓN FLOTANTE WHATSAPP (fixed bottom-6 right-6 z-50) -->
+<!-- ========================================== -->
+<div class="fixed bottom-6 right-6 z-50 flex items-center gap-2 group">
+<!-- Tooltip -->
+<div class="hidden sm:flex items-center px-3 py-1.5 rounded-lg bg-surface-container-high text-on-surface text-label-sm font-label-sm shadow-xl pointer-events-none group-hover:inline-block transition-opacity opacity-0 group-hover:opacity-100">
+      ¿Tienes dudas? Escríbenos
+    </div>
+<!-- Pulsing WhatsApp Button -->
+<a aria-label="Contactar a Python Conf Pereira por WhatsApp" class="w-14 h-14 rounded-full bg-secondary-container hover:bg-secondary-fixed text-on-secondary-container hover:text-on-secondary flex items-center justify-center shadow-[0_0_24px_rgba(57,169,0,0.5)] transition-all hover:scale-110 active:scale-95 relative" href="https://wa.me/57NUMERO_WHATSAPP?text=Hola%2C%20quiero%20recibir%20informaci%C3%B3n%20sobre%20Python%20Conf%20Pereira%202026%2C%20que%20se%20realizar%C3%A1%20del%2023%20al%2025%20de%20noviembre%20en%20Expofuturo." rel="noopener noreferrer" target="_blank">
+<span class="absolute w-full h-full rounded-full bg-secondary opacity-30 animate-ping pointer-events-none"></span>
+<span class="material-symbols-outlined text-[32px]">chat</span>
+</a>
+</div>
+<!-- Back to Top Floating Button (Shows on scroll) -->
+<button aria-label="Volver arriba" class="fixed bottom-6 left-6 z-40 w-11 h-11 rounded-full bg-surface-container-high hover:bg-surface-variant text-on-surface flex items-center justify-center shadow-lg transition-all opacity-0 pointer-events-none cursor-pointer" id="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+<span class="material-symbols-outlined text-[20px]">arrow_upward</span>
+</button>
+</div>
+<!-- Interactive Client-side Script -->
+<script>
+  // 1. Precise Countdown Timer to Nov 23, 2026 08:00 AM UTC-5
+  function initCountdown() {
+    const target = new Date("2026-11-23T08:00:00-05:00").getTime();
+    
+    function update() {
+      const now = new Date().getTime();
+      const difference = target - now;
+
+      if (difference <= 0) {
+        document.getElementById("days").innerText = "00";
+        document.getElementById("hours").innerText = "00";
+        document.getElementById("minutes").innerText = "00";
+        document.getElementById("seconds").innerText = "00";
+        return;
+      }
+
+      const d = Math.floor(difference / (1000 * 60 * 60 * 24));
+      const h = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const m = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+      const s = Math.floor((difference % (1000 * 60)) / 1000);
+
+      const daysEl = document.getElementById("days");
+      const hoursEl = document.getElementById("hours");
+      const minutesEl = document.getElementById("minutes");
+      const secondsEl = document.getElementById("seconds");
+
+      if (daysEl) daysEl.innerText = d < 10 ? '0' + d : d;
+      if (hoursEl) hoursEl.innerText = h < 10 ? '0' + h : h;
+      if (minutesEl) minutesEl.innerText = m < 10 ? '0' + m : m;
+      if (secondsEl) secondsEl.innerText = s < 10 ? '0' + s : s;
+    }
+
+    update();
+    setInterval(update, 1000);
+  }
+
+  // 2. Agenda Interactive Tabs
+  function switchDay(dayId) {
+    const days = ['day1', 'day2', 'day3'];
+    days.forEach(d => {
+      const panel = document.getElementById('panel-' + d);
+      const btn = document.getElementById('tab-btn-' + d);
+      if (panel && btn) {
+        if (d === dayId) {
+          panel.classList.remove('hidden');
+          btn.className = "px-5 py-3 rounded-lg font-headline-sm text-label-md font-semibold transition-all bg-primary text-on-primary shadow-sm flex items-center gap-2 cursor-pointer";
+        } else {
+          panel.classList.add('hidden');
+          btn.className = "px-5 py-3 rounded-lg font-headline-sm text-label-md font-semibold transition-all bg-surface-container hover:bg-surface-container-high text-on-surface-variant cursor-pointer flex items-center gap-2";
+        }
+      }
+    });
+  }
+
+  // 3. Technical Structure Accordion Toggle
+  function toggleTechnicalDetails() {
+    const panel = document.getElementById("technical-panel");
+    const chevron = document.getElementById("tech-chevron");
+    if (panel) {
+      const isHidden = panel.classList.contains("hidden");
+      if (isHidden) {
+        panel.classList.remove("hidden");
+        if (chevron) chevron.classList.add("rotate-180");
+      } else {
+        panel.classList.add("hidden");
+        if (chevron) chevron.classList.remove("rotate-180");
+      }
+    }
+  }
+
+  // 4. Back to top visibility listener
+  window.addEventListener('scroll', function() {
+    const btn = document.getElementById('back-to-top');
+    if (!btn) return;
+    if (window.scrollY > 400) {
+      btn.classList.remove('opacity-0', 'pointer-events-none');
+      btn.classList.add('opacity-100');
+    } else {
+      btn.classList.add('opacity-0', 'pointer-events-none');
+      btn.classList.remove('opacity-100');
+    }
+  });
+
+  // 5. Smooth Anchor Links for Header and in-page navigation
+  document.addEventListener('DOMContentLoaded', function() {
+    initCountdown();
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const href = this.getAttribute('href');
+        if (href && href.length > 1) {
+          const targetElem = document.querySelector(href);
+          if (targetElem) {
+            e.preventDefault();
+            targetElem.scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+      });
+    });
+  });
+</script></main><footer class="w-full bg-surface-container-lowest mt-space-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="max-w-7xl mx-auto px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg mb-space-xl"><div class="flex flex-col gap-space-sm"><div class="flex items-center gap-space-sm"><img alt="logoSena.png" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrCnEQ_Yuv4hPY2iAJPekLaj0dy9J3__f3HLTfWtx2WmZdeacRw7-wEZtErh0im7p9pvWAWUUvBmsXknGq-T6d-ecJgz663kHWSjS58KVRMknk-2c1kM3tSL8KlybsZzWcAqC5rWhQlsno8lOEZbdO2NF8PgWYKp2QGMqcCO-YVjavoM6s20iAID4eMkQDzDwE0sp_0XS2IgSUDiNtGvQqmUuKwqCf-FpJ032ZV2QmvOYBVcBBkB3pCE2cM"/><span class="font-label-md text-label-md text-secondary font-semibold">Python Conf 2026</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">SENA – Regional Risaralda<br/>Formación, tecnología e innovación para el ecosistema tecnológico de Colombia.</p></div><div class="flex flex-col gap-space-xs"><span class="font-label-md text-label-md text-on-surface font-semibold tracking-wide uppercase">Fechas & Sede</span><div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm"><span class="material-symbols-outlined text-tertiary text-[18px]">calendar_today</span><span>23, 24 y 25 de noviembre de 2026</span></div><div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm"><span class="material-symbols-outlined text-primary text-[18px]">location_on</span><span>Expofuturo, Pereira, Colombia</span></div></div><div class="flex flex-col gap-space-xs"><span class="font-label-md text-label-md text-on-surface font-semibold tracking-wide uppercase">Navegación</span><a class="text-on-surface-variant hover:text-on-surface transition-colors font-body-sm text-body-sm" data-path="agenda" href="#">Agenda Académica</a><a class="text-on-surface-variant hover:text-on-surface transition-colors font-body-sm text-body-sm" data-path="conferencistas" href="#">Keynotes & Speakers</a><a class="text-on-surface-variant hover:text-on-surface transition-colors font-body-sm text-body-sm" data-path="tematicas" href="#">Líneas Temáticas</a><a class="text-on-surface-variant hover:text-on-surface transition-colors font-body-sm text-body-sm" data-path="registro" href="#">Inscripciones</a></div><div class="flex flex-col gap-space-sm"><span class="font-label-md text-label-md text-on-surface font-semibold tracking-wide uppercase">Comunidad & Soporte</span><div class="flex items-center gap-space-sm"><a aria-label="WhatsApp SENA" class="p-2 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">chat</span></a><a aria-label="Canal de Noticias" class="p-2 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">campaign</span></a><a aria-label="Correo Oficial" class="p-2 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">mail</span></a></div><span class="font-label-sm text-label-sm text-on-surface-variant">Atención directa WhatsApp SENA Risaralda</span></div></div><div class="pt-space-md bg-surface-container-low/30 flex flex-col sm:flex-row items-center justify-between gap-space-sm"><p class="font-body-sm text-body-sm text-on-surface-variant text-center sm:text-left">© 2026 SENA Regional Risaralda & Comunidad Python Colombia. Todos los derechos reservados.</p><div class="flex items-center gap-space-md font-body-sm text-body-sm text-on-surface-variant"><span class="font-label-sm text-label-sm text-outline">Hecho con código abierto</span></div></div></div></footer></body></html>
